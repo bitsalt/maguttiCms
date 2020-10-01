@@ -98,6 +98,7 @@ return [
         'question'       => 'Question',
         'read'          => 'Read',
 		'real_password' => 'Password',
+        'password'      => 'Password',
 		'role'			=> 'Role',
         'save'          => 'Save',
         'search'        => 'Search',
