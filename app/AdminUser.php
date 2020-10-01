@@ -128,7 +128,7 @@ class AdminUser extends Model implements AuthenticatableContract, CanResetPasswo
 			'type'       => 'password',
 			'required'   => 0,
 			'hidden'     => 0,
-			'label'      => trans('admin.label.password'),
+			'label'      => trans('admin.label.real_password'),
 			'display'    => 1,
 			'template'   => 'password',
 			'validation' => 'nullable|min:10|confirmed|regex:'.config('maguttiCms.security.password_regex'),
